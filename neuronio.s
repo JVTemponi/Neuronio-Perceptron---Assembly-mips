@@ -61,7 +61,6 @@ swc1 $f1,8
 
 
 
-
 #saida2
 
 lwc1 $f3,saida2
@@ -75,7 +74,6 @@ add.s $f3,$f15,$f17
 
 
 
-
 #saida3
 
 lwc1 $f5,saida3
@@ -85,7 +83,6 @@ lwc1 $f19,termo31
 lwc1 $f21,termo32
 
 add.s $f5,$f19,$f21
-
 
 
 
@@ -208,7 +205,6 @@ add.s $f12,$f12,$f10 #ajuste paraopeso w0
 mul.s $f16,$f8,$f30 #erro * taxaaprendizado
 mul.s $f18,$f16,$f25 #(erro * taxaaprendizado) * termo42
 add.s $f18,$f18,$f14 #ajuste para o peso w1
-
  
 
 fim:
@@ -217,7 +213,6 @@ j fim
 fimfor:
 
 jr $ra
-
 
 
 fimprograma:
